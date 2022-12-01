@@ -3,7 +3,7 @@ import csv, re
 def main():
 
     try:
-        with open("./input") as f:
+        with open("input") as f:
             numbers, boards = parse_input(f)
             winning_boards = []
             for number in numbers:

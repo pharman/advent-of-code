@@ -4,7 +4,7 @@ def main():
     cnt = 0
 
     try:
-        with open("./input") as f:
+        with open("input") as f:
             reader = csv.reader(f)
             a = b = c = d = count = 0
             a_sum = b_sum = c_sum = d_sum = 0

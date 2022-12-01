@@ -4,7 +4,7 @@ def main():
     cnt = 0
 
     try:
-        with open("./input") as f:
+        with open("input") as f:
             reader = csv.reader(f)
             shoal = list(map(int, next(reader)))
             shoal_counts = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0}

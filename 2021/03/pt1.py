@@ -4,7 +4,7 @@ def main():
     cnt = 0
 
     try:
-        with open("./input") as f:
+        with open("input") as f:
             reader = csv.reader(f)
             char_map = []
             gamma = epsilon = ""

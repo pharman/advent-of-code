@@ -3,7 +3,7 @@ import csv, math
 def main():
 
     try:
-        with open("./input") as f:
+        with open("input") as f:
             reader = csv.reader(f)
             crabs = list(map(int, next(reader)))
             costs = []
